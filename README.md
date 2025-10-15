@@ -11,17 +11,12 @@ This repository contains a clean, reproducible implementation of **n‑gram lang
 ## Repo structure
 ```
 ngram-language-model/
-├── data/                 # Put corpus files here (see 'Data' below)
-├── notebooks/
-│   └── NGramModels.ipynb # Place your notebook here
-├── src/                  # (Optional) Python modules if you factor code out of the notebook
-├── reports/              # Saved charts/tables (optional)
+├── ptbdataset/
+├── NGramModels.ipynb
 ├── requirements.txt
-├── LICENSE
+├── .gitignore
 └── README.md
 ```
-
-> **Note:** Copy your existing `NGramModels.ipynb` into `notebooks/` before committing.
 
 ## Data
 The notebook currently expects the **Penn Treebank (PTB)**‑style files:
@@ -40,6 +35,12 @@ ptbdataset/ptb.test.txt
 ## Quickstart
 1. Create and activate a virtual environment.
 2. `pip install -r requirements.txt`
-3. Put your corpus files into `data/` (or update paths in the notebook).
-4. Open `notebooks/NGramModels.ipynb` and run all cells.
-5. Export results (perplexities, plots) into `reports/` for the README badges/table.
+3. Put your corpus files into `ptbdataset/` (or update paths in the notebook).
+4. Open `NGramModels.ipynb` and run all cells.
+
+## Author
+
+**Rohan Jain**
+- GitHub: [@Rohanjain2312](https://github.com/Rohanjain2312)
+- LinkedIn: [Profile](https://www.linkedin.com/in/jaroh23/)
+- Email: rohanjain2312@gmail.com

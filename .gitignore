@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Data and large artifacts
+data/*
+!data/.gitkeep
+reports/*.png
+reports/*.pdf
+reports/*.csv
+reports/*.txt
+
+# OS
+.DS_Store
